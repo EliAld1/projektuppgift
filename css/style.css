@@ -1,0 +1,16 @@
+/*Grundstruktur*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+/*Bilder*/
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
