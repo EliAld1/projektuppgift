@@ -6,6 +6,29 @@
 }
 
 body {
+  background-color: rgb(224, 203, 207);
+  color: rgb(50, 49, 49);
+}
+
+/*Typsnitt och texter*/
+body,
+p,
+a,
+button {
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial;
+  line-height: 1.6;
+}
+
+/*Rubriker*/
+h1,
+h2,
+h3 {
+  font-family: Georgia, Garamond, serif;
+  font-weight: normal;
+  letter-spacing: 1px;
 }
 
 /*Bilder*/
@@ -14,3 +37,65 @@ img {
   height: auto;
   display: block;
 }
+
+header {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: rgb(50, 49, 49);
+}
+
+.logo {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/*Navigeringen visas inte dierk på skärmen*/
+.menu {
+  display: none;
+  width: 100%;
+}
+
+/*Visar meny när klassen open läggs till*/
+.menu.open {
+  display: block;
+}
+
+.menu-toggle {
+  cursor: pointer;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+
+/*Hero*/
+.hero {
+  background-color: rgb(107, 3, 3);
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
