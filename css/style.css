@@ -20,6 +20,7 @@ button {
     Helvetica,
     Arial;
   line-height: 1.6;
+  text-align: center;
 }
 
 /*Rubriker*/
@@ -27,7 +28,7 @@ h1,
 h2,
 h3 {
   font-family: Georgia, Garamond, serif;
-  font-weight: normal;
+  font-weight: 550;
   letter-spacing: 1px;
 }
 
@@ -81,15 +82,14 @@ header {
   text-decoration: none;
 }
 
-
 /*Hero*/
 .hero {
-  background-color: rgb(107, 3, 3);
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-overflow: hidden;
+  background-color: #f5f3ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .hero img {
@@ -99,3 +99,72 @@ overflow: hidden;
   display: block;
 }
 
+.hero-content {
+  padding: 1.5rem;
+  max-width: 800px;
+}
+
+/*Intro sektionen*/
+.intro {
+  margin: 2rem 5rem;
+}
+
+/*Bästsäljare*/
+.best {
+  background-color: #f5f3ef;
+  margin: 4rem;
+  border-radius: 8px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+
+.card img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+/*Footer*/
+.footer {
+  padding: 3rem 1rem;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.footer-logo img {
+  max-width: 80px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  text-align: left;
+}
+
+.footer-contact,
+.footer-links {
+  text-align: center;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links a {
+  color: rgb(50, 49, 49);
+  text-decoration: none;
+}
