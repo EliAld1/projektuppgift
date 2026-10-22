@@ -112,16 +112,21 @@ header {
 /*Bästsäljare*/
 .best {
   background-color: #f5f3ef;
-  margin: 4rem;
+  margin: 4rem 10rem;
   border-radius: 8px;
+}
+.best h2 {
+  padding-top: 2rem;
+}
+.best p {
+  padding-bottom: 3rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .card img {
@@ -168,3 +173,33 @@ header {
   color: rgb(50, 49, 49);
   text-decoration: none;
 }
+
+/*Css produktsidan*/
+.collection {
+  background-color: #540a0a;
+  margin: 4rem 10rem;
+  border-radius: 8px;
+  color: #f5f3ef;
+}
+
+.collection h1 {
+padding-top: 2rem;
+}
+
+.collection p {
+  padding-bottom: 3rem;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-2 img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+/*Css kontaktsida*/
