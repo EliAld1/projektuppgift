@@ -39,6 +39,12 @@ img {
   display: block;
 }
 
+/*Alla knappar*/
+.button {
+text-transform: uppercase;
+
+}
+
 header {
   padding: 2rem;
   display: flex;
