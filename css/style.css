@@ -81,7 +81,7 @@ header {
   width: 100%;
 }
 
-/*Visar meny när klassen open läggs till*/
+/*Visar meny när klassen open läggs till av js*/
 .menu.open {
   display: block;
 }
