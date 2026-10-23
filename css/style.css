@@ -40,7 +40,7 @@ img {
 }
 
 /*Alla knappar, förutom ham meny*/
-button:not(.menu-toggle) {
+button:not(.menu-toggle):not(.cart) {
   display: inline-block;
   border: none;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ button:not(.menu-toggle) {
   font-size: 0.9rem;
   font-weight: 500;
 }
-button:hover:not(.menu-toggle) {
+button:hover:not(.menu-toggle):not(.cart) {
   background-color: rgb(33, 33, 33);
 }
 
@@ -75,15 +75,54 @@ header {
   font-size: 1.1rem;
 }
 
+/*Varukorg*/
+.cart {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  background: transparent;
+  margin-left: auto;
+  margin-top: 0.7rem;
+}
+
+.cart svg {
+  width: 1.7rem;
+  height: 1.7rem;
+  fill: rgb(50, 49, 49);
+}
+
 /*Navigeringen visas inte dierk på skärmen*/
 .menu {
   display: none;
   width: 100%;
 }
 
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  width: fit-content;
+  padding-left: 0;
+}
+
+.menu a {
+  text-align: left;
+  display: block;
+  color: rgb(50, 49, 49);
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+
 /*Visar meny när klassen open läggs till av js*/
 .menu.open {
-  display: block;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /*Ham meny knapp*/
