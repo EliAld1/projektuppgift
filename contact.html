@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elli Beauty</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/contact.js" defer></script>
 </head>
 
 <body>
@@ -45,6 +47,7 @@
         </section>
 
         <!--Kontaktformulär-->
+        <ul id="errorlist"></ul>
         <form class="contact-form">
             <h2>Kontakta oss</h2>
 
@@ -57,7 +60,7 @@
             <label for="message">Meddelande:</label>
             <textarea id="message" name="message"></textarea>
 
-            <button type="submit">Skicka</button>
+            <button type="submit" id="submit">Skicka</button>
         </form>
     </main>
 
