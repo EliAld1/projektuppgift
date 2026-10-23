@@ -39,8 +39,8 @@ img {
   display: block;
 }
 
-/*Alla knappar*/
-button {
+/*Alla knappar, förutom ham meny*/
+button:not(.menu-toggle) {
   display: inline-block;
   border: none;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ button {
   font-size: 0.9rem;
   font-weight: 500;
 }
-button:hover {
+button:hover:not(.menu-toggle) {
   background-color: rgb(33, 33, 33);
 }
 
@@ -86,8 +86,16 @@ header {
   display: block;
 }
 
+/*Ham meny knapp*/
 .menu-toggle {
   cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  background-color: rgb(224, 203, 207);
+  color: rgb(50, 49, 49);
 }
 
 .menu ul {
