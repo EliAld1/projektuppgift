@@ -75,6 +75,9 @@ button:hover:not(.menu-toggle):not(.cart) {
   font-weight: 600;
   font-size: 1.1rem;
 }
+.logo p {
+  margin-top: 1rem;
+}
 
 /*Varukorg*/
 .cart {
