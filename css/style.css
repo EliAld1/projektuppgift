@@ -202,6 +202,8 @@ button:hover:not(.menu-toggle):not(.cart) {
 
 /*Footer*/
 .footer {
+  display: flex;
+  flex-wrap: wrap;
   padding: 3rem 1rem;
   text-align: center;
 }
@@ -241,6 +243,18 @@ button:hover:not(.menu-toggle):not(.cart) {
 }
 .footer-links a:hover {
   text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 100%;
+    flex-basis: 100%;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 1rem;
+  border-top: 1px solid #f5f3ef; /* Tunn linje */
+  font-size: 0.8rem;
+  color: #666; 
+  line-height: 1.4;
 }
 
 /*Css produktsidan*/
