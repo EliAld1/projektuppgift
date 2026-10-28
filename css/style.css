@@ -39,24 +39,6 @@ img {
   display: block;
 }
 
-/*Alla knappar, förutom ham meny*/
-button:not(.menu-toggle):not(.cart) {
-  display: inline-block;
-  border: none;
-  text-transform: uppercase;
-  cursor: pointer;
-  background-color: rgb(50, 49, 49);
-  color: #f5f3ef;
-  width: 50%;
-  padding: 0.4rem;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-button:hover:not(.menu-toggle):not(.cart) {
-  background-color: rgb(33, 33, 33);
-}
-
 /*Header*/
 .header {
   padding: 2rem;
@@ -171,6 +153,29 @@ button:hover:not(.menu-toggle):not(.cart) {
 .hero-content {
   padding: 1.5rem;
   max-width: 800px;
+}
+
+.btn {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #f7efe5;
+  color:#540a0a;
+  width: 50%;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+     border: 0.1rem solid rgb(50, 49, 49);
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color:
+  white;
 }
 
 /*Intro sektionen*/
@@ -333,9 +338,11 @@ button:hover:not(.menu-toggle):not(.cart) {
 .contact-form button {
   width: 50%;
   padding: 0.4rem;
+   border: 0.1rem solid rgb(50, 49, 49);
   border-radius: 5px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 /*Större skärm*/
