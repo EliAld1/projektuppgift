@@ -10,3 +10,6 @@ I detta projekt har jag skapat en fiktiv webbplats från grunden. Elli Beauty ä
 - Interaktiv mobilmeny via JavaScript
 - Kontaktformulär med integrerad JavaScript-validering
 - Tydlig struktur med CSS Grid och Flexbox
+
+## Publicering
+GitHub Pages: https://eliald1.github.io/projektuppgift/
